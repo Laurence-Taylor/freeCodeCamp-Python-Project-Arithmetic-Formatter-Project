@@ -35,7 +35,7 @@ Example Code
   40     -3800     19998      474
 ```
 # Rules
-
+```
 The function will return the correct conversion if the supplied problems are properly formatted, otherwise, it will return a string that describes an error that is meaningful to the user.
 •	Situations that will return an error:
 •	If there are too many problems supplied to the function. The limit is five, anything more will return: 'Error: Too many problems.'
@@ -47,8 +47,4 @@ The function will return the correct conversion if the supplied problems are pro
 •	Numbers should be right-aligned.
 •	There should be four spaces between each problem.
 •	There should be dashes at the bottom of each problem. The dashes should run along the entire length of each problem individually. (The example above shows what this should look like.)
-Note: open the browser console with F12 to see a more verbose output of the tests.
-Run the Tests (Ctrl + Enter)
-Save your Code
-Revert to Saved Code
-Get Help
+```
