@@ -126,19 +126,4 @@ def arithmetic_arranger(problems, show_answers=False):
         solution = solution_unanswered(problems, show_answers)
         return solution
 
-def main():
-    aricmetic_arr1 = ["3 + 855", "988 + 40"]
-    aricmetic_arr2 = ["3801 - 2", "123 + 49"]
-    aricmetic_arr3 = ["1 + 2", "1 - 9380"]
-    aricmetic_arr4 = ["3 + 855", "3801 - 2", "45 + 43", "123 + 49"]
-    aricmetic_arr5 = ["11 + 4", "3801 - 2999", "1 + 2", "123 + 49", "1 - 9380"]
-    aricmetic_arr6 = ["32 - 698", "1 - 3801", "45 + 43", "123 + 49", "988 + 40"]
-
-
-    print(f'\n{arithmetic_arranger(aricmetic_arr1, True)}')
-    print(f'\n{arithmetic_arranger(aricmetic_arr2, True)}')
-    print(f'\n{arithmetic_arranger(aricmetic_arr3, True)}')
-    print(f'\n{arithmetic_arranger(aricmetic_arr4, True)}')
-    print(f'\n{arithmetic_arranger(aricmetic_arr5, True)}')
-    print(f'\n{arithmetic_arranger(aricmetic_arr6, True)}')
-main()
+print(f'\n{arithmetic_arranger(["3 + 855", "988 + 40"], True)}')
